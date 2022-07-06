@@ -13,8 +13,11 @@ for(let i = 0; i < keyList.length; i++) {
         sound.play();
     };
 
-    key.onkeydown = () => {
-        key.classList.add('ativa');
+    key.onkeydown = (event) => {
+        if(event.code === "Space") {
+            key.classList.add('ativa');
+            sound.play();
+        }
     }
 
     key.onkeyup = () => {
