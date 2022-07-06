@@ -1,1 +1,1 @@
-console.log('Hello World!');
+const pom = document.querySelector('.tecla_pom');
