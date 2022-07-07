@@ -40,10 +40,10 @@ for(let i = 0; i < keyList.length; i++) {
         } else if(event.code === "Numpad3") {
             playSound(8);
         }
-    }
+    };
 
     key.onkeyup = () => {
         key.classList.remove('ativa');
-    }
+    };
     
 }
